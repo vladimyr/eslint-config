@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "tape test.js | tap-spec"
+    "test": "tape test.js | tap-spec",
+    "release": "np"
   },
   "keywords": [
     "eslint",
