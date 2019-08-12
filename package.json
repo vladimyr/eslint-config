@@ -1,4 +1,7 @@
 {
+  "publishConfig": {
+    "access": "public"
+  },
   "name": "@vladimyr/eslint-config",
   "version": "1.0.0",
   "description": "vladimyr's ESLint config",
