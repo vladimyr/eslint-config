@@ -52,7 +52,7 @@ test('prefer `const`', t => {
   `);
   t.is(results.length, 1);
   t.is(results[0].messages.length, 1);
-  t.is(results[0].messages[0].message, `'foo' is never reassigned. Use 'const' instead.`);
+  t.is(results[0].messages[0].message, "'foo' is never reassigned. Use 'const' instead.");
 });
 
 test('require space before anonymous functions', t => {
