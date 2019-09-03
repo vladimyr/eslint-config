@@ -7,7 +7,7 @@ module.exports = {
     sourceType: 'script'
   },
   overrides: [{
-    files: ['client/**'],
+    files: ['rollup.config.js', 'client/**'],
     parserOptions: {
       sourceType: 'module'
     },
